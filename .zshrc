@@ -77,7 +77,7 @@ eval "$(zoxide init zsh)"
 # Allow comments in zsh commands
 setopt interactivecomments
 # Initialize Oh-My-Posh
-eval "$(oh-my-posh init zsh --config ~/jamescorino8.omp.yaml)"
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/jamescorino8.omp.yaml)"
 # Docker CLI completions.
 fpath=(/Users/jamescorino/.docker/completions $fpath)
 autoload -Uz compinit
